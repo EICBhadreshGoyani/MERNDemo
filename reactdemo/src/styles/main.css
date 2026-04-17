@@ -1,0 +1,33 @@
+@import './variables.css';
+
+/* 1rem == 16px 
+rem unit means "The root element's font-size" 
+(rem stands for "root em") */
+
+/* 1vh == 1% 
+vh unit means viewport height */
+
+/* 1vw == 1% 
+vw unit means viewport width */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 82vh;
+}

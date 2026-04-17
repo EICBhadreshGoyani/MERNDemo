@@ -1,0 +1,75 @@
+/* Input Styles */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.input-relative {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: var(--white-color);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--input-focus-color);
+}
+
+.input-group input::placeholder {
+  color: var(--text-placeholder);
+}
+
+.form-input-error {
+  border: 1px solid var(--error-color);
+  box-shadow: 0 0 0 4px var(--input-error-color);
+}
+
+.form-input-normal {
+  border: 1px solid var(--border-color);
+  box-shadow: none;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.password-toggle-btn:hover {
+  transform: translateY(-54%);
+}
+
+.form-error-msg {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--error-color);
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.form-input-password {
+  padding-right: 3rem;
+}

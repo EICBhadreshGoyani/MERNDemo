@@ -1,0 +1,9 @@
+/* Card Styles */
+.card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  transition: transform var(--transition-speed);
+  overflow: hidden;
+}
